@@ -233,8 +233,8 @@ runtime_parameters:
     secretProvider:
       type: KeyVault
       environment: azure
-      vaultUrl: 'https://myVaultName.vault.azure.net'
-      secretId: mySecretId
+      vaultUrl: 'https://KeyVaultDFS7.vault.azure.net'
+      secretId: bigip-login
   - name: SELF_IP_EXTERNAL
     type: metadata
     metadataProvider:
