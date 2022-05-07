@@ -37,6 +37,7 @@
       "type": "string"
     },
     "bigIpPasswordSecretId": {
+      "defaultValue": "https://keyvaultdfs01.vault.azure.net/secrets/bigip-login/",
       "metadata": {
         "description": "REQUIRED: The URL of the Azure Key Vault, including secret ID, where the BIG-IP password is stored."
       },
