@@ -12,6 +12,14 @@ based on: https://github.com/F5Networks/f5-azure-arm-templates-v2/tree/main/exam
     
     secretId: bigip-login
 5. sync to GitHub
+
+    git status
+
+    git add *
+
+    git commit -m "update"
+
+    git push -u origin main
 6. create new Deployment and copy&past the content of e.g. full-stack-delpoyment.json
-- modify deployment options as required
+- modify deployment options as required: KeyVault URL, BYOL/PAYG, w/o App, SSH public key, src IP restrictons, usage of AZ
 7. run deployment
